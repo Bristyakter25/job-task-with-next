@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+/* styles/globals.css */
+@font-face {
+  font-family: 'SolaimanLipi';
+  src: url('/fonts/SolaimanLipi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SolaimanLipi', sans-serif;
+}
