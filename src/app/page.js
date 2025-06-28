@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import BookAppointment from "./components/BookAppointment";
 import LifestyleSection from "./components/LifestyleSection";
 import Navbar from "./components/Navbar";
+import OurServices from "./components/OurServices";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 <Banner></Banner>
 <LifestyleSection></LifestyleSection>
 <BookAppointment></BookAppointment>
+<OurServices></OurServices>
    </div>
   );
 }
