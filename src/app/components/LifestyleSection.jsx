@@ -22,7 +22,7 @@ export default function LifestyleSection() {
         <img className='w-8' src="/logo/square_16597161.png" alt="" />
       </div>
 
-      <div className='grid w-[900px] mx-auto grid-cols-1 lg:grid-cols-2 gap-6'>
+      <div className='grid w-[350px] lg:w-[900px] mx-auto grid-cols-1 lg:grid-cols-2 gap-6'>
         
         {/* Facebook Box with Shadow */}
         <div className="p-4 ">
@@ -44,7 +44,7 @@ export default function LifestyleSection() {
         </div>
 
         {/* Text Box with Shadow */}
-        <div className='w-[650px] p-5 bg-white rounded-md border border-gray-200 shadow-[2px_2px_5px_rgba(0,0,0,0.1)] leading-6 text-[12px]'>
+        <div className='lg:w-[650px] w-[350px] p-5 bg-white rounded-md border border-gray-200 shadow-[2px_2px_5px_rgba(0,0,0,0.1)] leading-6 text-[12px]'>
 
           <h2 className='text-2xl mb-6 font-bold text-gray-600'>স্বাস্থ্যকর লাইফস্টাইল</h2>
           <p className='text-black mb-4 text-[12px] font-extrabold'>কি আছে আমাদের লাইফ স্টাইলে? কেন ভাল হয়ে যায় লাইফ স্টাইল ও লাইফ টাইম ডিসিস গুলো। (সুস্থতার মূল মন্ত্রে সবচেয়ে গুরুত্বপূর্ণ যে বিষয়টি তা হল খাদ্যাভ্যাস)</p>

@@ -20,19 +20,19 @@ export default function OurServices() {
   }
 
   return (
-    <div className="p-6 mx-10">
+    <div className="p-6 mx-10 lg:mx-28 mt-40">
       <h2 className="text-2xl text-center font-bold mb-4">আমাদের সেবা সমূহ</h2>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
         {services.map((service) => (
           <div
             key={service.id}
-            className="p-4   rounded-md shadow-md bg-white"
+            className="p-4 rounded-md shadow-md bg-white"
           >
            <div className="items-center flex justify-center">
              <img
               src={service.image}
               alt={service.title}
-              className="w-20 rounded mb-3"
+              className="w-16 rounded mb-3"
             />
            </div>
             <h3 className="text-lg text-center font-semibold">{service.title}</h3>
