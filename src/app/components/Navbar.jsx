@@ -1,26 +1,30 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
   const links = (
     <>
-     <ul className='lg:flex items-center w-full justify-center gap-x-5'>
-      <li className='text-[17px]'>হোম</li>
-      <li className='text-[17px]'>সেবা</li>
-      <li className='text-[17px]'>রিভিউ</li>
-      <li className='text-[17px]'>যোগাযোগ</li>
-      <li className='text-[17px]'>আমাদের সম্পর্কে</li>
+     <ul className='lg:flex items-center w-full justify-center gap-x-3'>
+      <li className='text-[17px]'>
+        <Link href="/">হোম</Link>
+      </li>
+      <li className='text-[17px]'> <a href="#services" className="cursor-pointer">সেবা</a></li>
+      <li className='text-[17px]'><a href="#reviews" className="cursor-pointer">রিভিউ</a></li>
+     
+      <li className='text-[17px]'><a href="#aboutUs" className="cursor-pointer">আমাদের সম্পর্কে</a></li>
+       <li className='text-[17px]'><a href="#footer" className="cursor-pointer">যোগাযোগ</a></li>
       <li className='text-[17px]'>FAQ</li>
       <li><button className='bg-blue-600 text-[17px] text-white hover:bg-blue-800'>বুক অ্যাপয়েন্টমেন্ট</button></li>
       <li><button className='bg-blue-600 text-[17px] text-white hover:bg-blue-800'>BMI Calculator</button></li>
       <li><button className='bg-blue-600 text-[17px] text-white hover:bg-blue-800'>Download app</button></li>
-      <li><button className='bg-blue-600 text-[17px] text-white hover:bg-blue-800'>লগিন করুন</button></li>
+      <li><button className='bg-blue-600 text-[17px] text-white hover:bg-blue-800'><Link href='/login'>লগিন করুন</Link></button></li>
       <li>Shop Now</li>
      </ul>
     </>
   )
 
   return (
-    <header className="w-full ">
+   <header className="w-full sticky top-0 z-50 bg-white shadow-md">
  
    
       <div className="flex justify-between items-center px-4 py-4 lg:hidden">

@@ -7,7 +7,8 @@ import "swiper/css";
 
 export default function Review() {
   return (
-    <div className="w-full">
+    <section id="reviews">
+      <div className="w-full">
         <div className="mt-12 lg:mt-32 mx-auto px-4">
         <h2 className="text-center text-black text-2xl font-bold">সুখী হওয়ার গল্প</h2>
 
@@ -34,6 +35,7 @@ export default function Review() {
       </Swiper> 
       </div>
     </div>
+    </section>
    
   );
 }

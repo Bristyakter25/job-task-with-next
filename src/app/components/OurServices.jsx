@@ -20,7 +20,8 @@ export default function OurServices() {
   }
 
   return (
-    <div className="p-6 mx-10 lg:mx-28 mt-40">
+    <section id="services">
+      <div className="p-6 mx-10 lg:mx-28 mt-40">
       <h2 className="text-2xl text-center font-bold mb-4">আমাদের সেবা সমূহ</h2>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
         {services.map((service) => (
@@ -70,5 +71,6 @@ export default function OurServices() {
         </div>
       </dialog>
     </div>
+    </section>
   );
 }
